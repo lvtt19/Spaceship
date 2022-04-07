@@ -32,7 +32,7 @@ aside {
 html,
 body {
   font-family: "Dashing Personal Use", sans-serif;
-  font-size: 33px;
+  font-size: 30px;
   line-height: 1.2;
   font-weight: 400;
   color: #000;
@@ -138,7 +138,7 @@ h6 {
 .section-1 {
   position: relative;
   background: url("/Spaceship/img/grey_bg.png") 0 0 no-repeat;
-  padding-top: 50px;
+  padding-top: 3.61%;
   height: 1635px;
 }
 
@@ -146,14 +146,17 @@ h6 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 165vh;
+  overflow: hidden;
   z-index: 1;
 }
 
 .section-1__bg img {
   width: 100%;
-  height: 85%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .section-1__body {
@@ -189,7 +192,7 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 55%;
+  width: 50%;
   height: 55%;
   background-color: #682d49;
 }
@@ -200,134 +203,162 @@ h6 {
 }
 
 .section-1__text {
-  padding: 20px 0 0 140px;
+  padding: 1.2% 0 0 8.44%;
+}
+
+.pictures {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 10;
 }
 
 .pictures__picture-1 {
-  position: absolute;
-  top: 0;
-  left: 14px;
-  width: 311px;
+  width: 16.2%;
   z-index: 10;
 }
 
 .pictures__picture-1 img {
-  width: 75%;
-  height: 75%;
+  margin: 0 0 0 4.5%;
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .pictures__picture-2 {
-  position: absolute;
-  top: 295px;
-  left: 377px;
-  width: 213px;
+  width: 11.1%;
   z-index: 10;
 }
 
 .pictures__picture-2 img {
-  width: 75%;
-  height: 75%;
+  margin: 178% 0 0 -4%;
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .pictures__picture-3 {
-  position: absolute;
-  top: 240px;
-  right: 340px;
-  width: 162px;
+  width: 8.44%;
   z-index: 10;
 }
 
 .pictures__picture-3 img {
-  width: 75%;
-  height: 75%;
+  margin: 154% 0 0 258%;
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .pictures__picture-4 {
-  position: absolute;
-  top: 170px;
-  right: 66px;
-  width: 270px;
+  width: 14.1%;
   z-index: 2;
 }
 
 .pictures__picture-4 img {
-  width: 75%;
-  height: 75%;
+  margin: 66% 0 0 97%;
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .pictures__picture-5 {
-  position: absolute;
-  top: -100px;
-  right: -45px;
-  width: 257px;
+  width: 13.4%;
 }
 
 .pictures__picture-5 img {
-  width: 90%;
-  height: 90%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.solar-system__sun-disk {
-  position: absolute;
-  top: 486px;
-  left: 771px;
-  width: 46px;
-  height: 46px;
-}
-
-.solar-system__sun-disk img {
+  margin: -39% 0 0 0;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.solar-system__sun-shadow {
+.planets {
   position: absolute;
-  top: 392px;
-  left: 652px;
-  width: 253px;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-.solar-system__sun-shadow img {
+.planets__big-planet {
+  width: 17.77%;
+}
+
+.planets__big-planet img {
+  margin: 195% 0 0 52%;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.solar-system__big-planet {
-  position: absolute;
-  top: 508px;
-  left: 115px;
-  width: 295px;
+.planets__small-planet {
+  width: 6.1%;
 }
 
-.solar-system__big-planet img {
+.planets__small-planet img {
+  margin: 680% 0 0 0;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.solar-system__small-planet {
+.sun {
   position: absolute;
-  top: 620px;
-  left: 245px;
-  width: 102px;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 10;
 }
 
-.solar-system__small-planet img {
+.sun__sun-disk {
+  width: 2.77%;
+}
+
+.sun__sun-disk img {
+  margin: 1186% 0 0 433%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sun__sun-shadow {
+  width: 15.25%;
+}
+
+.sun__sun-shadow img {
+  margin: 179% 0 0 14%;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -350,7 +381,7 @@ h6 {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  margin: -555px 0 0 -384px;
+  margin: -33.41% 0 0 -23.15%;
   z-index: 15;
 }
 
@@ -359,10 +390,11 @@ h6 {
 }
 
 .section-2__logo {
-  margin: -145px 0 0 0;
+  width: 6.05%;
 }
 
 .section-2__logo img {
+  margin: -70% 0 0 0;
   width: 80%;
   height: 80%;
 }
@@ -378,8 +410,8 @@ h6 {
 }
 
 .section-2__strip img {
-  width: 100%;
   margin: -5% 0 0 0;
+  width: 100%;
   padding: 0 0 5% 0;
 }
 
