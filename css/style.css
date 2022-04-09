@@ -483,7 +483,7 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10% 0 0 0;
+  padding: 6% 0 0 0;
 }
 
 .section-2__content-title {
@@ -522,7 +522,8 @@ h6 {
   top: 0;
   left: 0;
   width: 100%;
-  height: 290.4%;
+  height: 250.4%;
+  margin: 4% 0 0 0;
 }
 
 .section-3__background img {
@@ -545,7 +546,7 @@ h6 {
 }
 
 .section-3__person img {
-  margin: -167% 0 0 238%;
+  margin: -138% 0 0 244%;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -559,7 +560,7 @@ h6 {
   width: 100%;
   height: 100%;
   color: #d1cdd4;
-  margin: -152% 0 0 295%;
+  margin: -123% 0 0 300%;
   z-index: 10;
 }
 
