@@ -137,9 +137,10 @@ h6 {
 
 .section-1 {
   position: relative;
-  background: url("/Spaceship/img/grey_bg.png") 0 0 no-repeat;
   padding-top: 3.61%;
-  height: 1635px;
+  width: 100%;
+  height: 165vh;
+  background-color: #404145;
 }
 
 .section-1__bg {
@@ -369,6 +370,7 @@ h6 {
   position: relative;
   top: 0;
   left: 0;
+  margin: 15% 0 0 0;
 }
 
 .section-2__title {
@@ -569,7 +571,7 @@ h6 {
   bottom: 0;
   margin: auto;
   width: 89.46%;
-  height: 370px;
+  height: 45.64vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -601,7 +603,7 @@ h6 {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 12.5vh;
-  padding: 153px 0;
+  padding: 12.5% 0;
 }
 
 .section-3__text {
@@ -734,6 +736,6 @@ h6 {
 }
 
 .footer {
-  height: 393px;
+  height: 48.48vh;
   background-color: #38376b;
 }
