@@ -455,7 +455,7 @@ h6 {
 }
 
 .section-2__road-map-logo img {
-  margin: 25% 0 0 23%;
+  margin: 20% 0 0 23%;
 }
 
 .section-2__text-block {
@@ -466,7 +466,7 @@ h6 {
       -ms-flex-pack: end;
           justify-content: end;
   color: #d1cdd4;
-  margin: -27% 2% 0 0;
+  margin: -30% 2% 0 0;
 }
 
 .section-2__content {
@@ -483,7 +483,7 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 6% 0 0 0;
+  padding: 20% 0 0 0;
 }
 
 .section-2__content-title {
@@ -522,7 +522,7 @@ h6 {
   top: 0;
   left: 0;
   width: 100%;
-  height: 250.4%;
+  height: 160%;
   margin: 4% 0 0 0;
 }
 
@@ -546,7 +546,7 @@ h6 {
 }
 
 .section-3__person img {
-  margin: -138% 0 0 244%;
+  margin: -176% 0 0 244%;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -560,7 +560,7 @@ h6 {
   width: 100%;
   height: 100%;
   color: #d1cdd4;
-  margin: -123% 0 0 300%;
+  margin: -71% 0 0 300%;
   z-index: 10;
 }
 
@@ -570,7 +570,7 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  margin: auto;
+  margin: 33% auto 0 auto;
   width: 89.46%;
   height: 45.64vh;
   display: -webkit-box;
@@ -584,7 +584,7 @@ h6 {
 
 .section-3__content {
   position: absolute;
-  top: 96.1%;
+  top: 75.1%;
   left: 0;
   right: 0;
   bottom: 0;
@@ -694,14 +694,29 @@ h6 {
   top: 0;
   left: 0;
   width: 100%;
+  margin: 55% 0 0 0;
 }
 
 .section-4__blue-bg img {
-  margin: -16% 0 0 0;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.section-4__blue-bg-text {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  z-index: 20;
+}
+
+.section-4__blue-bg-text p {
+  margin: -59% 0 0 0;
+}
+
+.section-4__blue-bg-text a {
+  color: #ffffff;
 }
 
 .section-5 {
@@ -711,11 +726,11 @@ h6 {
 
 .section-5__chair {
   margin: 0 auto;
-  width: 60.25%;
+  width: 60%;
 }
 
 .section-5__chair img {
-  margin: -122% 0 0 0;
+  margin: -359.8% 0 0 0;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -727,9 +742,9 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-  font-size: 12.5vh;
+  font-size: 10.5vh;
   text-align: center;
-  margin: -26% 0 0 0;
+  margin: 44% 0 0 0;
 }
 
 .section-5__text a {
