@@ -113,12 +113,6 @@ h6 {
   min-width: 100%;
 }
 
-/*.container {
-   max-width: 1920px;
-   width: 100%;
-   padding: 0 15px;
-   margin: 0 auto;
-}*/
 ._ibg {
   position: relative;
 }
@@ -143,6 +137,12 @@ h6 {
   background-color: #404145;
 }
 
+@media (max-width: 426px) {
+  .section-1 {
+    height: 62vh;
+  }
+}
+
 .section-1__bg {
   position: absolute;
   top: 0;
@@ -151,6 +151,12 @@ h6 {
   height: 165vh;
   overflow: hidden;
   z-index: 1;
+}
+
+@media (max-width: 426px) {
+  .section-1__bg {
+    height: 62vh;
+  }
 }
 
 .section-1__bg img {
@@ -198,6 +204,12 @@ h6 {
   background-color: #682d49;
 }
 
+@media (max-width: 426px) {
+  .section-1__logo {
+    width: 90%;
+  }
+}
+
 .section-1__logo img {
   width: 10%;
   padding: 2% 0;
@@ -205,6 +217,13 @@ h6 {
 
 .section-1__text {
   padding: 1.2% 0 0 8.44%;
+}
+
+@media (max-width: 426px) {
+  .section-1__text {
+    font-size: 1.7vh;
+    padding: 3% 0 0 0;
+  }
 }
 
 .pictures {
@@ -228,6 +247,12 @@ h6 {
   z-index: 10;
 }
 
+@media (max-width: 426px) {
+  .pictures__picture-1 {
+    width: 9.2%;
+  }
+}
+
 .pictures__picture-1 img {
   margin: 0 0 0 4.5%;
   width: 100%;
@@ -236,9 +261,21 @@ h6 {
      object-fit: cover;
 }
 
+@media (max-width: 426px) {
+  .pictures__picture-1 img {
+    margin: 160% 0 0 10%;
+  }
+}
+
 .pictures__picture-2 {
   width: 11.1%;
   z-index: 10;
+}
+
+@media (max-width: 426px) {
+  .pictures__picture-2 {
+    width: 16.1%;
+  }
 }
 
 .pictures__picture-2 img {
@@ -249,9 +286,21 @@ h6 {
      object-fit: cover;
 }
 
+@media (max-width: 426px) {
+  .pictures__picture-2 img {
+    margin: 200% 0 0 -52%;
+  }
+}
+
 .pictures__picture-3 {
   width: 8.44%;
   z-index: 10;
+}
+
+@media (max-width: 426px) {
+  .pictures__picture-3 {
+    width: 19.44%;
+  }
 }
 
 .pictures__picture-3 img {
@@ -262,9 +311,21 @@ h6 {
      object-fit: cover;
 }
 
+@media (max-width: 426px) {
+  .pictures__picture-3 img {
+    margin: 166% 0 0 60%;
+  }
+}
+
 .pictures__picture-4 {
   width: 14.1%;
   z-index: 2;
+}
+
+@media (max-width: 426px) {
+  .pictures__picture-4 {
+    width: 12.1%;
+  }
 }
 
 .pictures__picture-4 img {
@@ -275,8 +336,20 @@ h6 {
      object-fit: cover;
 }
 
+@media (max-width: 426px) {
+  .pictures__picture-4 img {
+    margin: 207% 0 0 -10%;
+  }
+}
+
 .pictures__picture-5 {
   width: 13.4%;
+}
+
+@media (max-width: 426px) {
+  .pictures__picture-5 {
+    display: none;
+  }
 }
 
 .pictures__picture-5 img {
@@ -314,6 +387,12 @@ h6 {
      object-fit: cover;
 }
 
+@media (max-width: 426px) {
+  .planets__big-planet img {
+    margin: 328% 0 0 -37%;
+  }
+}
+
 .planets__small-planet {
   width: 6.1%;
 }
@@ -324,6 +403,12 @@ h6 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media (max-width: 426px) {
+  .planets__small-planet img {
+    margin: 1067% 0 0 -268%;
+  }
 }
 
 .sun {
@@ -346,16 +431,34 @@ h6 {
   width: 2.77%;
 }
 
+@media (max-width: 426px) {
+  .sun__sun-disk {
+    width: 4.77%;
+  }
+}
+
 .sun__sun-disk img {
-  margin: 1186% 0 0 433%;
+  margin: 1200% 0 0 433%;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
+@media (max-width: 426px) {
+  .sun__sun-disk img {
+    margin: 1077% 0 0 532%;
+  }
+}
+
 .sun__sun-shadow {
   width: 15.25%;
+}
+
+@media (max-width: 426px) {
+  .sun__sun-shadow {
+    width: 33.25%;
+  }
 }
 
 .sun__sun-shadow img {
@@ -364,6 +467,12 @@ h6 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media (max-width: 426px) {
+  .sun__sun-shadow img {
+    margin: 115% 0 0 14%;
+  }
 }
 
 .section-2 {
@@ -384,22 +493,46 @@ h6 {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  margin: -33.41% 0 0 -23.15%;
+  margin: -33.41% 0 0 -25.15%;
   z-index: 15;
+}
+
+@media (max-width: 426px) {
+  .section-2__title {
+    margin: -57.41% 0 0 14.85%;
+  }
 }
 
 .section-2__text {
   color: #d1cdd4;
 }
 
+@media (max-width: 426px) {
+  .section-2__text {
+    font-size: 1.7vh;
+  }
+}
+
 .section-2__logo {
   width: 6.05%;
+}
+
+@media (max-width: 426px) {
+  .section-2__logo {
+    width: 32.05%;
+  }
 }
 
 .section-2__logo img {
   margin: -70% 0 0 0;
   width: 80%;
   height: 80%;
+}
+
+@media (max-width: 426px) {
+  .section-2__logo img {
+    margin: 76% 0 0 10%;
+  }
 }
 
 .section-2__bg {
@@ -425,6 +558,12 @@ h6 {
   width: 100%;
 }
 
+@media (max-width: 426px) {
+  .section-2__strip {
+    display: none;
+  }
+}
+
 .section-2__strip img {
   margin: -16% 0 0 0;
   width: 100%;
@@ -446,6 +585,12 @@ h6 {
      object-fit: cover;
 }
 
+@media (max-width: 426px) {
+  .section-2__road-map-bg img {
+    margin: -11% 0 0 0;
+  }
+}
+
 .section-2__road-map-logo {
   position: absolute;
   top: 0;
@@ -455,7 +600,13 @@ h6 {
 }
 
 .section-2__road-map-logo img {
-  margin: 20% 0 0 23%;
+  margin: 54% 0 0 23%;
+}
+
+@media (max-width: 426px) {
+  .section-2__road-map-logo img {
+    margin: 15% 0 0 45%;
+  }
 }
 
 .section-2__text-block {
@@ -467,6 +618,12 @@ h6 {
           justify-content: end;
   color: #d1cdd4;
   margin: -30% 2% 0 0;
+}
+
+@media (max-width: 426px) {
+  .section-2__text-block {
+    display: none;
+  }
 }
 
 .section-2__content {
@@ -489,7 +646,14 @@ h6 {
 .section-2__content-title {
   text-transform: uppercase;
   font-size: 4.9vh;
-  margin: 0 0 0 -2%;
+  margin: 0 0 0 4%;
+}
+
+@media (max-width: 426px) {
+  .section-2__content-title {
+    font-size: 2.9vh;
+    margin: 0;
+  }
 }
 
 .section-2__content-text {
@@ -507,14 +671,33 @@ h6 {
   margin: 0 0 0 -8%;
 }
 
+@media (max-width: 426px) {
+  .section-2__content-text {
+    font-size: 1.7vh;
+    padding: 5% 0;
+    margin: 0;
+    text-align: center;
+  }
+}
+
 .section-2__content-bigtext {
   max-width: 50.91%;
   margin: 0 14% 0 0;
 }
 
+@media (max-width: 426px) {
+  .section-2__content-bigtext {
+    font-size: 1.7vh;
+    margin: 0;
+    max-width: 80%;
+  }
+}
+
 .section-3 {
   position: relative;
-  padding: 6.35% 0;
+  margin: 6.35% 0;
+  height: 100%;
+  background: #000;
 }
 
 .section-3__background {
@@ -524,6 +707,13 @@ h6 {
   width: 100%;
   height: 160%;
   margin: 4% 0 0 0;
+}
+
+@media (max-width: 426px) {
+  .section-3__background {
+    margin: -54% 0 0 0;
+    height: 435%;
+  }
 }
 
 .section-3__background img {
@@ -545,6 +735,12 @@ h6 {
   width: 29%;
 }
 
+@media (max-width: 426px) {
+  .section-3__person {
+    display: none;
+  }
+}
+
 .section-3__person img {
   margin: -176% 0 0 244%;
   width: 100%;
@@ -560,37 +756,42 @@ h6 {
   width: 100%;
   height: 100%;
   color: #d1cdd4;
-  margin: -71% 0 0 300%;
+  margin: -89% 0 0 300%;
   z-index: 10;
 }
 
+@media (max-width: 426px) {
+  .section-3__name {
+    display: none;
+  }
+}
+
 .section-3__grey-block {
-  position: relative;
-  top: 0%;
-  left: 0;
-  right: 0;
-  bottom: 0;
   margin: 33% auto 0 auto;
-  width: 89.46%;
+  width: 75.46%;
   height: 45.64vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-color: #383838;
 }
 
+@media (max-width: 426px) {
+  .section-3__grey-block {
+    width: 100%;
+    height: 14.64vh;
+    margin: 0 auto 0 auto;
+  }
+}
+
 .section-3__content {
-  position: absolute;
-  top: 75.1%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+  position: relative;
+  margin: 0 auto 0 auto;
   color: #ffffff;
-  width: 72.9%;
+  width: 65.9%;
+}
+
+@media (max-width: 426px) {
+  .section-3__content {
+    width: 85%;
+  }
 }
 
 .section-3__title {
@@ -607,25 +808,56 @@ h6 {
   padding: 12.5% 0;
 }
 
+@media (max-width: 426px) {
+  .section-3__title {
+    font-size: 3.1vh;
+    text-align: center;
+  }
+}
+
 .section-3__text {
   text-align: center;
 }
 
+@media (max-width: 426px) {
+  .section-3__text {
+    font-size: 1.7vh;
+  }
+}
+
 .section-4 {
   position: relative;
-  padding: 62.5% 0;
+  padding: 25.5% 0;
+}
+
+@media (max-width: 426px) {
+  .section-4 {
+    padding: 50% 0;
+  }
 }
 
 .section-4__body {
   margin: 0 auto;
-  max-width: 71%;
+  max-width: 65%;
   width: 100%;
+}
+
+@media (max-width: 426px) {
+  .section-4__body {
+    max-width: 90%;
+  }
 }
 
 .section-4__title {
   text-align: center;
   font-size: 12.5vh;
   padding: 0 0 6.8% 0;
+}
+
+@media (max-width: 426px) {
+  .section-4__title {
+    font-size: 3.1vh;
+  }
 }
 
 .section-4__row {
@@ -641,6 +873,15 @@ h6 {
   padding: 0 0 2.55% 0;
 }
 
+@media (max-width: 426px) {
+  .section-4__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .section-4__column {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 33.333%;
@@ -651,10 +892,28 @@ h6 {
   margin: 0 5%;
 }
 
+@media (max-width: 426px) {
+  .section-4__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .section-4__img {
   padding: 0 0 12.75% 0;
   margin: 0 auto;
   width: 84.3%;
+}
+
+@media (max-width: 426px) {
+  .section-4__img {
+    max-width: 23%;
+  }
 }
 
 .section-4__img img {
@@ -666,6 +925,14 @@ h6 {
 
 .section-4__text {
   text-align: center;
+}
+
+@media (max-width: 426px) {
+  .section-4__text {
+    font-size: 1.7vh;
+    max-width: 100%;
+    padding: 0 0 0 5%;
+  }
 }
 
 .section-4__bg-text {
@@ -682,6 +949,12 @@ h6 {
   width: 14.5%;
 }
 
+@media (max-width: 426px) {
+  .section-4__sign {
+    margin: 0 0 0 5%;
+  }
+}
+
 .section-4__sign img {
   width: 100%;
   height: 100%;
@@ -694,7 +967,13 @@ h6 {
   top: 0;
   left: 0;
   width: 100%;
-  margin: 55% 0 0 0;
+  margin: 49% 0 0 0;
+}
+
+@media (max-width: 426px) {
+  .section-4__blue-bg {
+    margin: 90% 0 0 0;
+  }
 }
 
 .section-4__blue-bg img {
@@ -711,8 +990,14 @@ h6 {
   z-index: 20;
 }
 
+@media (max-width: 426px) {
+  .section-4__blue-bg-text {
+    font-size: 1.7vh;
+  }
+}
+
 .section-4__blue-bg-text p {
-  margin: -59% 0 0 0;
+  margin: -95% 0 0 0;
 }
 
 .section-4__blue-bg-text a {
@@ -726,11 +1011,17 @@ h6 {
 
 .section-5__chair {
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
+}
+
+@media (max-width: 426px) {
+  .section-5__chair {
+    width: 68%;
+  }
 }
 
 .section-5__chair img {
-  margin: -359.8% 0 0 0;
+  margin: -361.6% 0 0 0;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -747,6 +1038,12 @@ h6 {
   margin: 44% 0 0 0;
 }
 
+@media (max-width: 426px) {
+  .section-5__text {
+    font-size: 3.5vh;
+  }
+}
+
 .section-5__text a {
   color: #000;
 }
@@ -754,4 +1051,10 @@ h6 {
 .footer {
   height: 48.48vh;
   background-color: #38376b;
+}
+
+@media (max-width: 426px) {
+  .footer {
+    height: 20.48vh;
+  }
 }
