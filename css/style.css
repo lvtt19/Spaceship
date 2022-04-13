@@ -791,6 +791,7 @@ h6 {
 @media (max-width: 426px) {
   .section-3__content {
     width: 85%;
+    margin: 25% auto 0 auto;
   }
 }
 
@@ -972,7 +973,7 @@ h6 {
 
 @media (max-width: 426px) {
   .section-4__blue-bg {
-    margin: 90% 0 0 0;
+    margin: 109% 0 0 0;
   }
 }
 
@@ -997,7 +998,7 @@ h6 {
 }
 
 .section-4__blue-bg-text p {
-  margin: -52% 0 0 0;
+  margin: -113% 0 0 0;
 }
 
 .section-4__blue-bg-text a {
@@ -1016,7 +1017,7 @@ h6 {
 
 @media (max-width: 426px) {
   .section-5__chair {
-    width: 68%;
+    width: 75%;
   }
 }
 
@@ -1026,6 +1027,12 @@ h6 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media (max-width: 426px) {
+  .section-5__chair img {
+    margin: -351.2% 0 0 0;
+  }
 }
 
 .section-5__text {
