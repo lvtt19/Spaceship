@@ -968,12 +968,12 @@ h6 {
   top: 0;
   left: 0;
   width: 100%;
-  margin: 46% 0 0 0;
+  margin: 48% 0 0 0;
 }
 
 @media (max-width: 426px) {
   .section-4__blue-bg {
-    margin: 109% 0 0 0;
+    margin: 100% 0 0 0;
   }
 }
 
@@ -991,14 +991,17 @@ h6 {
   z-index: 20;
 }
 
+.section-4__blue-bg-text p {
+  margin: -54% 0 0 0;
+}
+
 @media (max-width: 426px) {
   .section-4__blue-bg-text {
     font-size: 1.7vh;
   }
-}
-
-.section-4__blue-bg-text p {
-  margin: -113% 0 0 0;
+  .section-4__blue-bg-text p {
+    margin: -110% 0 0 0;
+  }
 }
 
 .section-4__blue-bg-text a {
@@ -1031,7 +1034,7 @@ h6 {
 
 @media (max-width: 426px) {
   .section-5__chair img {
-    margin: -351.2% 0 0 0;
+    margin: -348.2% 0 0 0;
   }
 }
 
