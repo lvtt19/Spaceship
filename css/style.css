@@ -1309,6 +1309,7 @@ h6 {
 @media (max-width: 1025px) {
   .section-4__text {
     max-width: 100%;
+    text-align: left;
     padding: 0 0 0 3%;
   }
 }
