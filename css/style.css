@@ -123,7 +123,7 @@ h6 {
           transform: 1s all;
   opacity: 1;
   visibility: visible;
-  z-index: 30;
+  z-index: 999;
 }
 
 .loader.done {
@@ -142,20 +142,14 @@ h6 {
       -ms-flex-pack: center;
           justify-content: center;
   width: 50%;
-  height: 12%;
+  height: auto;
   background-color: #682d49;
   -webkit-animation: loader 0.8s ease-in-out infinite;
           animation: loader 0.8s ease-in-out infinite;
 }
 
-@media (max-width: 769px) {
-  .loader__item {
-    width: 90%;
-  }
-}
-
 .loader__item img {
-  width: 3rem;
+  width: 10%;
 }
 
 @-webkit-keyframes loader {
@@ -540,7 +534,7 @@ h6 {
 }
 
 .planets__big-planet img {
-  margin: 195% 0 0 52%;
+  margin: 159% 0 0 52%;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -549,7 +543,13 @@ h6 {
 
 @media (max-width: 769px) {
   .planets__big-planet img {
-    margin: 328% 0 0 -37%;
+    margin: 295% 0 0 -37%;
+  }
+}
+
+@media (max-width: 426px) {
+  .planets__big-planet img {
+    margin: 275% 0 0 -37%;
   }
 }
 
@@ -558,7 +558,7 @@ h6 {
 }
 
 .planets__small-planet img {
-  margin: 680% 0 0 0;
+  margin: 571% 0 0 0;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -567,7 +567,13 @@ h6 {
 
 @media (max-width: 769px) {
   .planets__small-planet img {
-    margin: 1067% 0 0 -268%;
+    margin: 970% 0 0 -268%;
+  }
+}
+
+@media (max-width: 426px) {
+  .planets__small-planet img {
+    margin: 903% 0 0 -268%;
   }
 }
 
@@ -593,18 +599,12 @@ h6 {
 
 @media (max-width: 769px) {
   .sun__sun-disk {
-    width: 4.77%;
-  }
-}
-
-@media (max-width: 426px) {
-  .sun__sun-disk {
-    width: 4.77%;
+    width: 3.77%;
   }
 }
 
 .sun__sun-disk img {
-  margin: 1200% 0 0 433%;
+  margin: 1066% 0 0 433%;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -613,13 +613,13 @@ h6 {
 
 @media (max-width: 769px) {
   .sun__sun-disk img {
-    margin: 1080% 0 0 433%;
+    margin: 1254% 0 0 506%;
   }
 }
 
 @media (max-width: 426px) {
   .sun__sun-disk img {
-    margin: 1077% 0 0 532%;
+    margin: 1183% 0 0 596%;
   }
 }
 
@@ -629,18 +629,12 @@ h6 {
 
 @media (max-width: 769px) {
   .sun__sun-shadow {
-    width: 33.25%;
-  }
-}
-
-@media (max-width: 426px) {
-  .sun__sun-shadow {
-    width: 33.25%;
+    width: 31.25%;
   }
 }
 
 .sun__sun-shadow img {
-  margin: 179% 0 0 14%;
+  margin: 155% 0 0 14%;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -649,13 +643,13 @@ h6 {
 
 @media (max-width: 769px) {
   .sun__sun-shadow img {
-    margin: 115% 0 0 0;
+    margin: 110% 0 0 0;
   }
 }
 
 @media (max-width: 426px) {
   .sun__sun-shadow img {
-    margin: 115% 0 0 14%;
+    margin: 101% 0 0 10%;
   }
 }
 
@@ -1513,25 +1507,25 @@ h6 {
 
 @media (max-width: 1441px) {
   .section-5__chair img {
-    margin: -251% 0 0 0;
+    margin: -226% 0 0 0;
   }
 }
 
 @media (max-width: 1025px) {
   .section-5__chair img {
-    margin: -246% 0 0 0;
+    margin: -222% 0 0 0;
   }
 }
 
 @media (max-width: 769px) {
   .section-5__chair img {
-    margin: -271.8% 0 0 0;
+    margin: -252.8% 0 0 0;
   }
 }
 
 @media (max-width: 426px) {
   .section-5__chair img {
-    margin: -232.7% 0 0 0;
+    margin: -240.7% 0 0 0;
   }
 }
 
@@ -1579,31 +1573,85 @@ h6 {
   color: #000;
 }
 
-.footer {
-  height: 36.3vh;
-  background-color: #38376b;
+.section-5__content-block {
+  position: relative;
 }
 
-@media (max-width: 1441px) {
-  .footer {
-    height: 40.558vh;
+@media (max-width: 426px) {
+  .section-5__content-block {
+    margin: -55% 0 0 0;
   }
 }
 
-@media (max-width: 1025px) {
-  .footer {
-    height: 38.43vh;
+.section-5__text-block {
+  text-align: center;
+  color: #ffffff;
+  padding: 0 0 3% 0;
+}
+
+@media (max-width: 426px) {
+  .section-5__text-block {
+    font-size: 1.7vh;
   }
+}
+
+.section-5__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-5__button a {
+  background-color: #682d49;
+  padding: 2% 7%;
 }
 
 @media (max-width: 769px) {
-  .footer {
-    height: 28.88vh;
+  .section-5__button a {
+    padding: 3% 10%;
   }
 }
 
 @media (max-width: 426px) {
-  .footer {
-    height: 15.9vh;
+  .section-5__button a {
+    padding: 2% 10%;
+  }
+}
+
+.section-5__button span {
+  color: #ffffff;
+}
+
+@media (max-width: 426px) {
+  .section-5__button span {
+    font-size: 1.7vh;
+  }
+}
+
+.footer {
+  height: 100%;
+  background-color: #38376b;
+  z-index: 50;
+}
+
+.footer__body {
+  padding: 5% 7%;
+}
+
+.footer__text-block {
+  max-width: 52%;
+  padding: 1%;
+  color: #d1cdd4;
+}
+
+@media (max-width: 426px) {
+  .footer__text-block {
+    font-size: 1.7vh;
   }
 }
