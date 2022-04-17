@@ -148,8 +148,15 @@ h6 {
           animation: loader 0.8s ease-in-out infinite;
 }
 
+@media (max-width: 769px) {
+  .loader__item {
+    width: 90%;
+  }
+}
+
 .loader__item img {
-  width: 10%;
+  width: 100%;
+  height: 100%;
 }
 
 @-webkit-keyframes loader {
@@ -220,31 +227,43 @@ h6 {
   position: relative;
   padding-top: 3.61%;
   width: 100%;
-  height: 165vh;
+  height: 178vh;
   background-color: #404145;
 }
 
 @media (max-width: 1441px) {
   .section-1 {
-    height: 155vh;
+    height: 161vh;
   }
 }
 
 @media (max-width: 1025px) {
   .section-1 {
-    height: 121vh;
+    height: 125vh;
   }
 }
 
 @media (max-width: 769px) {
   .section-1 {
-    height: 133vh;
+    height: 139vh;
   }
 }
 
 @media (max-width: 426px) {
   .section-1 {
-    height: 62vh;
+    height: 76vh;
+  }
+}
+
+@media (max-width: 376px) {
+  .section-1 {
+    height: 66vh;
+  }
+}
+
+@media (max-width: 321px) {
+  .section-1 {
+    height: 56vh;
   }
 }
 
@@ -253,32 +272,44 @@ h6 {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 165vh;
+  height: 178vh;
   overflow: hidden;
-  z-index: 1;
+  z-index: 2;
 }
 
 @media (max-width: 1441px) {
   .section-1__bg {
-    height: 155vh;
+    height: 162vh;
   }
 }
 
 @media (max-width: 1025px) {
   .section-1__bg {
-    height: 121vh;
+    height: 125vh;
   }
 }
 
 @media (max-width: 769px) {
   .section-1__bg {
-    height: 133vh;
+    height: 139vh;
   }
 }
 
 @media (max-width: 426px) {
   .section-1__bg {
-    height: 62vh;
+    height: 76vh;
+  }
+}
+
+@media (max-width: 376px) {
+  .section-1__bg {
+    height: 66vh;
+  }
+}
+
+@media (max-width: 321px) {
+  .section-1__bg {
+    height: 56vh;
   }
 }
 
@@ -323,7 +354,7 @@ h6 {
       -ms-flex-pack: center;
           justify-content: center;
   width: 50%;
-  height: 55%;
+  height: auto;
   background-color: #682d49;
 }
 
@@ -334,8 +365,8 @@ h6 {
 }
 
 .section-1__logo img {
-  width: 10%;
-  padding: 2% 0;
+  width: 100%;
+  height: 100%;
 }
 
 .section-1__text {
@@ -393,7 +424,7 @@ h6 {
 
 @media (max-width: 769px) {
   .pictures__picture-1 img {
-    margin: 160% 0 0 10%;
+    margin: 190% 0 0 10%;
   }
 }
 
@@ -440,7 +471,7 @@ h6 {
 }
 
 .pictures__picture-3 img {
-  margin: 154% 0 0 258%;
+  margin: 175% 0 0 258%;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -449,13 +480,19 @@ h6 {
 
 @media (max-width: 1025px) {
   .pictures__picture-3 img {
-    margin: 237% 0 0 393%;
+    margin: 265% 0 0 393%;
   }
 }
 
 @media (max-width: 769px) {
   .pictures__picture-3 img {
     margin: 180% 0 0 45%;
+  }
+}
+
+@media (max-width: 321px) {
+  .pictures__picture-3 img {
+    margin: 200% 0 0 45%;
   }
 }
 
@@ -477,7 +514,7 @@ h6 {
 }
 
 .pictures__picture-4 img {
-  margin: 66% 0 0 97%;
+  margin: 73% 0 0 99%;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -486,13 +523,19 @@ h6 {
 
 @media (max-width: 1025px) {
   .pictures__picture-4 img {
-    margin: 101% 0 0 135%;
+    margin: 90% 0 0 135%;
   }
 }
 
 @media (max-width: 769px) {
   .pictures__picture-4 img {
     margin: 150% 0 0 -10%;
+  }
+}
+
+@media (max-width: 321px) {
+  .pictures__picture-4 img {
+    margin: 230% 0 0 -10%;
   }
 }
 
@@ -549,7 +592,7 @@ h6 {
 
 @media (max-width: 426px) {
   .planets__big-planet img {
-    margin: 275% 0 0 -37%;
+    margin: 298% 0 0 -37%;
   }
 }
 
@@ -573,7 +616,7 @@ h6 {
 
 @media (max-width: 426px) {
   .planets__small-planet img {
-    margin: 903% 0 0 -268%;
+    margin: 969% 0 0 -268%;
   }
 }
 
@@ -590,7 +633,7 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 10;
+  z-index: 1;
 }
 
 .sun__sun-disk {
@@ -619,7 +662,7 @@ h6 {
 
 @media (max-width: 426px) {
   .sun__sun-disk img {
-    margin: 1183% 0 0 596%;
+    margin: 1317% 0 0 596%;
   }
 }
 
@@ -649,7 +692,7 @@ h6 {
 
 @media (max-width: 426px) {
   .sun__sun-shadow img {
-    margin: 101% 0 0 10%;
+    margin: 118% 0 0 10%;
   }
 }
 
@@ -764,7 +807,7 @@ h6 {
   margin: -16% 0 0 0;
   width: 100%;
   height: 100%;
-  padding: 0 0 5% 0;
+  padding: 0 0 6% 0;
 }
 
 @media (max-width: 1441px) {
@@ -775,7 +818,7 @@ h6 {
 
 @media (max-width: 769px) {
   .section-2__strip img {
-    padding: 0 0 14% 0;
+    padding: 0 0 16% 0;
   }
 }
 
@@ -831,7 +874,7 @@ h6 {
 
 @media (max-width: 769px) {
   .section-2__road-map-logo img {
-    margin: 140% 0 0 44%;
+    margin: 146% 0 0 44%;
   }
 }
 
@@ -1301,7 +1344,7 @@ h6 {
 
 @media (max-width: 1025px) {
   .section-4__img {
-    max-width: 23%;
+    max-width: 20%;
     padding: 0;
   }
 }
@@ -1353,7 +1396,7 @@ h6 {
 
 @media (max-width: 1025px) {
   .section-4__sign {
-    margin: 0 0 0 5%;
+    margin: 0 0 0 8%;
   }
 }
 
@@ -1420,36 +1463,9 @@ h6 {
   margin: -18% 0 0 0;
 }
 
-@media (max-width: 1441px) {
-  .section-4__blue-bg-text p {
-    margin: -18% 0 0 0;
-  }
-}
-
-@media (max-width: 1025px) {
-  .section-4__blue-bg-text p {
-    margin: -18% 0 0 0;
-  }
-}
-
-@media (max-width: 769px) {
-  .section-4__blue-bg-text p {
-    margin: -18% 0 0 0;
-  }
-}
-
 @media (max-width: 426px) {
   .section-4__blue-bg-text {
     font-size: 1.7vh;
-  }
-  .section-4__blue-bg-text p {
-    margin: -18% 0 0 0;
-  }
-}
-
-@media (max-width: 321px) {
-  .section-4__blue-bg-text p {
-    margin: -18% 0 0 0;
   }
 }
 
@@ -1464,18 +1480,18 @@ h6 {
 
 .section-5__chair {
   margin: 0 auto;
-  width: 50%;
+  width: 55%;
 }
 
 @media (max-width: 1441px) {
   .section-5__chair {
-    width: 45%;
+    width: 50%;
   }
 }
 
 @media (max-width: 1025px) {
   .section-5__chair {
-    width: 70%;
+    width: 65%;
   }
 }
 
@@ -1502,42 +1518,42 @@ h6 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  margin: -220.7% 0 0 0;
+  margin: -194.7% 0 0 0;
 }
 
 @media (max-width: 1441px) {
   .section-5__chair img {
-    margin: -226% 0 0 0;
+    margin: -217% 0 0 0;
   }
 }
 
 @media (max-width: 1025px) {
   .section-5__chair img {
-    margin: -222% 0 0 0;
+    margin: -230% 0 0 0;
   }
 }
 
 @media (max-width: 769px) {
   .section-5__chair img {
-    margin: -252.8% 0 0 0;
+    margin: -277.8% 0 0 0;
   }
 }
 
 @media (max-width: 426px) {
   .section-5__chair img {
-    margin: -240.7% 0 0 0;
+    margin: -245.7% 0 0 0;
   }
 }
 
 @media (max-width: 376px) {
   .section-5__chair img {
-    margin: -235.7% 0 0 0;
+    margin: -244.7% 0 0 0;
   }
 }
 
 @media (max-width: 321px) {
   .section-5__chair img {
-    margin: -244.7% 0 0 0;
+    margin: -248.7% 0 0 0;
   }
 }
 
@@ -1575,6 +1591,12 @@ h6 {
 
 .section-5__content-block {
   position: relative;
+}
+
+@media (max-width: 769px) {
+  .section-5__content-block {
+    margin: -32% 0 0 0;
+  }
 }
 
 @media (max-width: 426px) {
